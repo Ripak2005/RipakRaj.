@@ -70,7 +70,8 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form className="flex flex-col" onSubmit={handleSubmit} action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value={process.env.API_KEY}/>
             <div className="mb-6">
               <label
                 htmlFor="email"

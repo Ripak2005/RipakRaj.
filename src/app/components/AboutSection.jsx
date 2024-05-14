@@ -10,7 +10,6 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>C++</li>
-        <li>Java</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>MongoDb</li>
@@ -65,11 +64,11 @@ const AboutSection = () => {
             I am a Bachelor of Technology student in Computer Science and
             Engineering at Chandigarh Group of Colleges with a passion for
             problem-solving and a strong foundation in computer science
-            fundamentals. I am proficient in programming languages like C++ and
-            Java have a keen interest in Full Stack Development . I am a quick
-            learner and I am always looking to expand my knowledge and skill
-            set. I am a team player and I am excited to work with others to
-            create amazing applications.
+            fundamentals. I am proficient in programming languages like C++ have
+            a keen interest in Full Stack Development . I am a quick learner and
+            I am always looking to expand my knowledge and skill set. I am a
+            team player and I am excited to work with others to create amazing
+            applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

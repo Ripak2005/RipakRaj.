@@ -30,18 +30,18 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Learnathon 2023 organized by ICT Academy</li>
-        <li>AWS Academy Graduate – AWS Academy Cloud Foundations</li>
-        <li>AWS Academy Graduate – AWS Academy Cloud Operations</li>
-        <li>AWS Academy Graduate – AWS Academy Data Engineering</li>
-      </ul>
-    ),
-  },
+  // {
+  //   title: "Certifications",
+  //   id: "certifications",
+  //   content: (
+  //     <ul className="list-disc pl-2">
+  //       <li>Learnathon 2023 organized by ICT Academy</li>
+  //       <li>AWS Academy Graduate – AWS Academy Cloud Foundations</li>
+  //       <li>AWS Academy Graduate – AWS Academy Cloud Operations</li>
+  //       <li>AWS Academy Graduate – AWS Academy Data Engineering</li>
+  //     </ul>
+  //   ),
+  // },
 ];
 
 const AboutSection = () => {
@@ -89,8 +89,8 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
-              {" "}
-              Certifications{" "}
+              {/* {" "}
+              Certifications{" "} */}
             </TabButton>
           </div>
           <div className="mt-8">
